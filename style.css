@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    font-family: Montserrat;
+ }
+ .conteiner{
+     width: 1300px;
+     margin: 0 auto;
+    
+ }
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 20px;
+}
+.sidebar{
+    width: 310px;
+}
+p{
+    color: #576067;
+    font-size: 14px;
+    font-weight: 500;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    width: 950px;
+}
+.new-year-sale{
+    display: flex;
+    justify-content: space-between;
+}
+.info-text{
+    margin-top: 100px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #6C3EB8;
+    color: white;
+    border-bottom: transparent;
+}
+.help{
+    display: flex;
+    color: #576067;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+#products{
+    margin: 50px ;
+    padding-left: 30px;
+}
